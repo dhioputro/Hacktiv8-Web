@@ -5,8 +5,7 @@
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-
+    font-size: 15px;;
     line-height: 1.5;
     width: 1920;
     height: 1080;
@@ -20,7 +19,7 @@ header {
     min-width: 720px;
     padding: 5px;
     border-bottom: 2px solid orange;
-
+    position: fixed;
     width: 100%;
     top: 0;
     height: 100px;
@@ -111,7 +110,7 @@ h4 {
     font-size: 20px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
-} 
+}
 
 .about-container {
     margin: 0 200px;
@@ -126,9 +125,18 @@ h4 {
     color: #484f58;
 } 
 
+.about-desc-1 {
+    text-align: left;
+}
+
 .menu-container {
     margin: 0 auto;
     height: 300px;
+}
+
+.about-container-1 {
+    margin-top: 112px;
+    text-align: center;
 }
 
 .about-menu {
@@ -253,6 +261,7 @@ h4 {
    padding: 50px;
    margin: 0 90px;
    text-indent: 70px;
+   vertical-align: middle;
  
 }
 
