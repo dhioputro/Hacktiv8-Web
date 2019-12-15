@@ -1,0 +1,270 @@
+* {
+    text-decoration: none;
+
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+
+    line-height: 1.5;
+    width: 1920;
+    height: 1080;
+    background-color: whitesmoke;
+
+}
+
+header {
+    background-color: #333300;
+    color: orange;
+    min-width: 720px;
+    padding: 5px;
+    border-bottom: 2px solid orange;
+
+    width: 100%;
+    top: 0;
+    height: 100px;
+    z-index: 3;
+
+}
+
+header h2 {
+    float: left;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+header a{
+    color: orange;
+    text-decoration: none;
+    font-weight: 200;
+
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+header nav {
+    float: right;
+    margin-top: 30px;
+
+}
+
+ul {
+    margin: 0;
+}
+
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: wheat;
+
+}
+
+h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    color: rgb(207, 133, 49);
+}
+
+h3 { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar li{ 
+    border: 2px solid orange;
+    background-color: #663300;
+    margin: 0 20px 10px 10px;
+}
+
+
+#banner {
+    height: 700px;
+    width: 1920px;
+    background-image: url('file/comodo5.jpg');
+    background-position: center;
+    margin-top: 112px;
+}
+
+.jumbotron {
+    padding: 280px;
+
+}
+
+.jumbotron h1 {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.jumbo-desc p {
+    font-size: 20px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+} 
+
+.about-container {
+    margin: 0 200px;
+    padding: 0 100px;
+    text-align: center;
+}
+
+.about-desc p {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    color: #484f58;
+} 
+
+.menu-container {
+    margin: 0 auto;
+    height: 300px;
+}
+
+.about-menu {
+    float: left;
+    padding: 0 20px;
+    margin: 0 60px;
+}
+
+.about-menu h3 {
+    display: inline;
+    text-align: center;
+    color: #484f58;
+}
+
+
+.about-menu-img img{
+    object-fit: cover;
+    border-radius: 5px;
+    
+}
+
+.about-more {
+    background-color: orange;
+    color:whitesmoke;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#activity {
+    height: 500px;
+}
+
+.activity-container {
+    margin: 0 auto;  
+}
+
+.activity-title {
+    text-align: center;
+}
+
+.activity-desc {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    color: #484f58;
+}
+
+
+
+.activity-img img{
+    object-fit: cover;
+    border-radius: 10px;
+    height: 235px;
+    margin: 0 100px;
+}
+
+.activity-img {
+    float: left;
+    text-align: center;
+
+}
+
+.img-trans {
+    background-color: orange;
+    color:whitesmoke;
+    padding: 10px;
+    margin-top: 5px;
+    
+}
+
+.article {
+    height: 400px;
+    text-align: center;
+    
+}
+
+.article-desc p {
+    font-family: monospace;
+    font-size: 20px;
+    text-align: center;
+    color: #484f58;
+}
+
+.article-img {
+    float: left;
+    text-align: center;
+    padding: 0 120px;
+}
+
+.article-img img {
+    object-fit: cover;
+    border-radius: 10px;
+    height: 235px;
+    margin: 0 100px;
+}
+
+.article-desc a {
+    background-color: orange;
+    color:whitesmoke;
+    padding: 10px;
+}
+
+#contact {
+    height: 400px;
+}
+
+.contact-container {
+    width: 30%;
+    float: left;
+    min-height: 1px;
+    padding: 50px;
+    height: 200px;
+    margin: 0 90px;
+
+}
+
+.contact-form {
+   width: 30%;
+   float: left; 
+   min-height: 1px;
+   height: 200px;
+   padding: 50px;
+   margin: 0 90px;
+   text-indent: 70px;
+ 
+}
+
+.copyright-container {
+    background-color: #333300;
+    color: orange;
+    width: 1920px;
+    
+
+}
+
+.copyright-container p {
+    text-align: center;
+    
+}
